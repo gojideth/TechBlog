@@ -1,14 +1,18 @@
 #logo {
+	display: flex;
+	justify-content: flex-start;
 	text-align: left;
 	background-color: black;
+	height: 150px;
 	}
 
- #menu {
-    margin-top: -78px;
-    margin-bottom: 0px;
-    margin-left: 420px;
-    word-spacing: 20px;    
+#logo.nav_menu {
+	
+    margin-left: 30px;    
     }
+#logo_tech{
+	margin-top: -10px;
+}
 #articulo1 {
 	text-align: justify;
 	font-family: Tahoma;
@@ -70,7 +74,7 @@
 	margin-right: 30px;
 	margin-left: 0px;
 	}
-	#pie {
+#pie {
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 18px;
@@ -81,7 +85,7 @@
 	height:30px;
 	color: white;
 	}
-	#hrr {
+#hrr {
   	height: 10px;
   	background-color: #aad400;
   	margin-top: 30px;
@@ -93,7 +97,7 @@ ul {
 	text-decoration: none;
 	font-family: Tahoma;	
 	display: line;
-	font-size: 24px;
+	font-size: 34px;
 	word-spacing: 60px;
 }
 li {
@@ -108,9 +112,9 @@ a {
 	color: #625050;
 	background-color: white; 
 	text-decoration: bold;
-	padding: 5px;
 	border-radius: 5px;
-	margin-left: 10px;
+	padding: 5px;	
+	
 }
 a:hover {
 	background-color: gray;
@@ -134,4 +138,16 @@ h2 {
 }
 h5 {
 	text-align: center;
+}
+section{
+	display: grid;
+	background: papayawhip;
+	width: 1200px;
+	height: 1200px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+
+}
+article{
+	place-self: center;
 }
