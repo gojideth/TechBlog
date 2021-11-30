@@ -1,80 +1,24 @@
 #logo {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 	text-align: left;
 	background-color: black;
 	height: 150px;
 	}
-
-#logo.nav_menu {
-	
+#menu{
+	margin-top: 50px;
+}
+#logo > .nav_menu {	
     margin-left: 30px;    
     }
 #logo_tech{
 	margin-top: -10px;
+	width: 40%;
 }
-#articulo1 {
-	text-align: justify;
-	font-family: Tahoma;
-	width: 500px;
-	height: 30px;
-	margin-top: -210px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 480px;
-}
-#articulo2 {
-	text-align: justify;
-	font-family: Tahoma;
-	width: 500px;
-	height: 120px;
-	margin-top: -162px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 480px;
-}#articulo3 {
-	text-align: justify;
-	font-family: Tahoma;
-	width: 500px;
-	height: 220px;
-	margin-top: -170px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 480px;
-}
-#imagen1 {
-	border:5px solid gray; 
-	margin-top: 10px;
-	margin-bottom: 50px;
-	margin-right: 0px;
-	margin-left: 80px;
-	width: 370px;
-	height: 200px;
-	text-align: left;
-	}
-#imagen2 {
-	border:5px solid gray; 
-	margin-top: 10px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 80px;
-	width: 370px;
-	height: 200px;
-	text-align: left;
-	}
-#aside {
-	float: right;
-	text-align: center;
-	font-family: Tahoma;
-	font-size: 22;
-	font-weight: bold;
-	background-color: #666666;
-	margin-top: -800px;
-	margin-bottom: 0px;
-	margin-right: 30px;
-	margin-left: 0px;
-	}
-#pie {
+
+
+
+#foot {
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 18px;
@@ -123,31 +67,85 @@ a:hover {
 h1 {
 	font-size: 24px;
 	font-family: Tahoma;
-	margin-top: 80px;
-	margin-bottom: -35px;
-    margin-left:  480px;
-    margin-right: 0px;  
+	
 }
 h2 {
 	font-size: 24px;
 	font-family: Tahoma;
-	margin-top: 180px;
-	margin-bottom: -35px;
-    margin-left:  480px;
-    margin-right: 390px;
+	
 }
 h5 {
 	text-align: center;
 }
 section{
-	display: grid;
-	background: papayawhip;
-	width: 1200px;
-	height: 1200px;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	display: grid;	
+	width: 1300px;
+	height: 690px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	align-items: start;
+	margin-left: 42px;	
 
 }
-article{
-	place-self: center;
+#aside {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr  1fr;
+	width: 300px;
+	height: 280px;
+	background: rgb(202, 200, 200); 
+	border: 2px solid black;
+	
+	
+}
+button{
+	
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	height: 25px;
+	width: 60px;
+	justify-self: center;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.text_box{
+	margin-top: 5px;
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: italic;
+}
+
+
+#panel{
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+article{	
+	width: 430px;
+	height: 690px;
+	background-color: rgb(202, 200, 200);
+	justify-self: center;
+	margin: 10px;
+	
+}
+article > p{
+	text-align: justify;
+	padding: 20px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	 font-size: 20px
+}
+article > h1{
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+	text-align: center;
+
+}
+article > img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 220px;
+	border: 1px solid rgb(114, 114, 153);
 }
