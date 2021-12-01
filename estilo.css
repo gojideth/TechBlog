@@ -99,12 +99,15 @@ section{
 }
 button{
 	
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	/* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	height: 25px;
 	width: 60px;
 	justify-self: center;
 	margin-top: -10px;
-	margin-bottom: 10px;
+	margin-bottom: 10px; */
+	/* padding: 0;
+	border: none;
+	background: none; */
 }
 .text_box{
 	margin-top: 5px;

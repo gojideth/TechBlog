@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta description="Content HTML5">
 	<meta name= "keywords" content="html5, css3, Javascript">
-	<meta name="viewport" content="width=device−width, initial−scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="shortcut icon" href="img/favicon.ico"/>
 	<title>YourTech blog</title>
@@ -22,56 +21,63 @@
 		</div>		
 	</header>	
 	
-<body>	    
-	
-	
-	
+<body> 
     <section>
-    	<article>
-    		<h1>¿Nuevos procesadores Ryzen?</h1>
-    		<img  src="img/ryzen.jpg"/>
-    		<p>
-    		Acaba de lanzar la familia 3000XT como una
-			versión mejorada de esas CPUs para PCs
-			de sobremesa. Así, contamos
-			con los nuevos AMD Ryzen 9 3900XT, Ryzen 7 3800XT y
-			Ryzen 5 3600XT, el cambio fundamental de esta
-			familia de procesadores está en la frecuencia
-			de reloj máxima, que se ve sensiblemente incrementada
-			en todos esos modelos respecto a sus variantes "no XT".
-			¿Qué quiere decir eso? Más rendimiento por núcleo y,
-			por tanto, más prestaciones tanto para gamers como para usuarios de tareas intensivas
-    		
-    	    </p>
-    	</article>    	
-    	<article>
-    		<h1>Nuevas RTX 3000 Series</h1>
-    		<img  src="img/nvidia.jpg"/>
-    		<p>
-    		En NVIDIA no se han dormido en los laureles, y hoy presentan por fin la esperada evolución de la arquitectura Turing. Se llama Ampere, y llega con mejoras notables en todos los apartados. Para demostrarlo tenemos con nosotros las nuevas NVIDIA GeForce RTX 3070, RTX 3080 y RTX 3090, unas gráficas absolutamente bestiales que más o menos doblan los rendimientos de sus antecesoras con precios más bajos que los de sus predecesoras.
-    		    		
-    	    </p>
-    	</article>
-
-        <article>
-            <h1>WoW Shadowlands a un mes de salir</h1>
-            <img src="img/wow.jpg"/>
-            <p>
-           En esta conferencia desde Blizzard han aprovechado para presentar también los nuevos títulos de 'World of Warcraft' y 'Hearstone'. Empezando por la expansión de 'World of Warcraft' se centrará en cómo la muerte llega a Azeroth cuando las puertas de Tierras Sombrías se abren. 'World of Warcraft: Shadowlands' ya nos da pistas sobre qué tendremos en el juego, una inmersión total en la tierra de los muertos.
-            </p>
-        </article>
-
-		<article>
-			<h1>UPTC Rankeada como la mejor 99 universidad</h1>
-			<img src="img/uptc.jpg" alt="">
-			<p>
-				La UPTC gracias al ranking méritos 2021 fue catalogada como la mejor universidad, estando en el puesto 99.
-			</p>
-		</article>
+		<button id="button_change1" >
+			<article id="article_1">
+				<h1 id= "article1_h1">¿Nuevos procesadores Ryzen?</h1>
+				<img  src="img/ryzen.jpg"/>
+				<p>
+				Acaba de lanzar la familia 3000XT como una
+				versión mejorada de esas CPUs para PCs
+				de sobremesa. Así, contamos
+				con los nuevos AMD Ryzen 9 3900XT, Ryzen 7 3800XT y
+				Ryzen 5 3600XT, el cambio fundamental de esta
+				familia de procesadores está en la frecuencia
+				de reloj máxima, que se ve sensiblemente incrementada
+				en todos esos modelos respecto a sus variantes "no XT".
+				¿Qué quiere decir eso? Más rendimiento por núcleo y,
+				por tanto, más prestaciones tanto para gamers como para usuarios de tareas intensivas.
+				
+				</p>
+			</article>  
+		</button>
+		
+		<button id="button_change2">
+			<article>
+				<h1 id="article2_h1">Nuevas RTX 3000 Series</h1>
+				<img  src="img/nvidia.jpg"/>
+				<p>
+				En NVIDIA no se han dormido en los laureles, y hoy presentan por fin la esperada evolución de la arquitectura Turing. Se llama Ampere, y llega con mejoras notables en todos los apartados. Para demostrarlo tenemos con nosotros las nuevas NVIDIA GeForce RTX 3070, RTX 3080 y RTX 3090, unas gráficas absolutamente bestiales que más o menos doblan los rendimientos de sus antecesoras con precios más bajos que los de sus predecesoras.
+							
+				</p>
+			</article>
+		</button>
+    	
+		<button id="button_change3">
+			<article>
+				<h1 id="article3_h1">WoW Shadowlands a un mes de salir</h1>
+				<img src="img/wow.jpg"/>
+				<p>
+			   En esta conferencia desde Blizzard han aprovechado para presentar también los nuevos títulos de 'World of Warcraft' y 'Hearstone'. Empezando por la expansión de 'World of Warcraft' se centrará en cómo la muerte llega a Azeroth cuando las puertas de Tierras Sombrías se abren. 'World of Warcraft: Shadowlands' ya nos da pistas sobre qué tendremos en el juego, una inmersión total en la tierra de los muertos.
+				</p>
+			</article>
+		</button>
+       
+		<button id="button_change4" >
+			<article>
+				<h1 id="article4_h1">UPTC la mejor 99 universidad</h1>
+				<img src="img/uptc.jpg" alt="">
+				<p>
+					La UPTC gracias al ranking méritos 2021 fue catalogada como la mejor universidad, estando en el puesto 99.
+				</p>
+			</article>
+		</button>
+	
     </section>
 	<div id="panel">
 		<div id= "aside" >
-			<h1>¡Solicite soporte ya mismo!</h1>
+			<h1 id="support">¡Solicite soporte ya mismo!</h1>
 			<p class="text_box">Nombre:</p>			
 			<input type="text" name="nombre" value="Ingrese Nombre"/> 		
 				
@@ -85,9 +91,13 @@
 
     
     
-    <footer id="foot">
-				<p>© 2021 YourTech blog. Todos los derecho reservados.</p>
-	</footer>	
+    
+
 </body>
-</head>
+<footer id="foot">
+	<p>© 2021 YourTech blog. Todos los derecho reservados.</p>
+</footer>
+<script type="text/javascript" src="script_2.js"></script>
+	
+
 </html>
